@@ -1,0 +1,159 @@
+/*Anchor tags*/
+a {
+	color: #191c24;
+	text-decoration: none;
+}
+
+/*Body tag*/
+body {
+	background-color: #f8f8f8;
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.2rem;
+	margin: 0;
+}
+
+/*Headings tags*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Raleway', sans-serif;
+}
+
+/*Section tag*/
+section {
+	padding: 4% 10%;
+}
+
+/***************HEADER****************/
+/*ID-Selector*/
+#header {
+
+	height: 500px;
+	position: relative;
+	width: 100%;
+}
+
+/*Class-selector*/
+.header-img {
+	height: 500px;
+	left: 200px;
+	position: absolute;
+
+}
+
+.titles {
+	background-color: #F0803C;
+	border-radius: 0 15px 15px 15px;
+	bottom: 100px;
+	box-sizing: border-box;
+	color: #191C24;
+	height: 200px;
+	padding: 0 2%;
+	position: absolute;
+	right: 100px;
+	text-align: center;
+	width: 520px;
+}
+
+.big-heading {
+	letter-spacing: 2px;
+	margin: 30px auto 0 auto;
+}
+
+.second-heading {
+	font-size: 1.3rem;
+	margin: 20px auto 20px auto;
+}
+
+/****************NAVBAR*************/
+/*ID-Selector*/
+#navbar {
+	margin-bottom: 7%;
+	text-align: center;
+}
+
+/*Class-Selector*/
+.nav-li {
+	display: inline-block;
+	margin: 50px;
+}
+
+/*Elements*/
+.nav-li a:active {
+	color: #50B2C0;
+}
+
+.nav-li a:hover {
+	color: #ff7f11;
+}
+
+/***************ABOUT-ME**************/
+/*Id-selector*/
+#about-me {
+	background-color: #50b2c0;
+}
+
+/*class-Selector*/
+.flex-row {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.profile-picture {
+	border-radius: 10px;
+	margin: 0 50px;
+	width: 250px;
+}
+
+.description {
+	margin: 0 50px;
+	text-align: left;
+	width: 400px;
+}
+
+.habilities {
+	align-items: flex-start;
+	justify-content: flex-start;
+	margin-left: 150px;
+}
+
+.habilities-list {
+	margin: 10px 25px;
+}
+
+/*Elements*/
+
+/**************SERVICIES************/
+/*Id-selector*/
+#servicies {}
+
+/*class-Selector*/
+/*Elements*/
+
+/************PROJECTS***************/
+/*Id-selector*/
+#projects {}
+
+/*class-Selector*/
+/*Elements*/
+
+/***********CONTACT-ME*************/
+/*Id-selector*/
+#contact-me {}
+
+/*class-Selector*/
+/*Elements*/
+
+
+/************FOOTER***************/
+/*Id-selector*/
+/*class-Selector*/
+/*Elements*/
+footer {}
